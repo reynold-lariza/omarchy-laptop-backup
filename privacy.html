@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy — Omarchy Laptop Backup</title>
+<style>body{max-width:720px;margin:64px auto;padding:0 24px;font:18px/1.6 system-ui;color:#222}a{color:#2455ad}</style>
+<main>
+<h1>Privacy policy</h1>
+<p>Omarchy Laptop Backup · Updated October 7, 2026</p>
+<h2>Purpose and operator</h2>
+<p>Reynold Lariza operates this utility solely to back up and restore his own Linux laptop using his Google Drive account.</p>
+<h2>Data accessed and used</h2>
+<p>The utility reads selected local system files, personal files, and application settings. Restic encrypts backup contents and filenames locally before Rclone uploads the encrypted repository to Google Drive. Google can see storage metadata such as object sizes, transfer times, and the enclosing folder name.</p>
+<p>The Google Drive <code>drive.file</code> permission is used to create, list, read, update, and delete this application's backup files. The utility also checks available Drive storage. Google OAuth credentials and tokens are stored locally with restricted filesystem permissions to authorize scheduled backups.</p>
+<h2>Storage, sharing, and retention</h2>
+<p>Encrypted backups are stored in the owner's Google Drive. The utility does not sell data, use it for advertising, or transmit it to analytics services. Google processes storage and authentication data under its own policies.</p>
+<p>Backup versions are retained according to the owner's configured retention schedule. Deleting a local file does not immediately delete previous backup versions. The owner can remove backup files from Google Drive, subject to Google's trash and retention behavior.</p>
+<h2>Control and contact</h2>
+<p>The owner can stop scheduled backups, revoke this application's access in Google Account settings, and remove locally stored authorization credentials. Revoking access does not delete existing backups.</p>
+<p>Questions: <a href="mailto:reynoldlariza@gmail.com">reynoldlariza@gmail.com</a>.</p>
+<p><a href="index.html">Back to Omarchy Laptop Backup</a></p>
+</main>
+</html>
